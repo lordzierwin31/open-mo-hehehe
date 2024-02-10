@@ -1,0 +1,70 @@
+a{
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    color: #ff8397;
+}
+
+body{
+    background-image: url(https://t4.ftcdn.net/jpg/06/44/41/23/360_F_644412399_ovfqoclYIJBJ3qzBxuBIy5YkFBG1VbbH.jpg);    
+}
+
+#title{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    color: pink;
+    text-shadow: -1px -1px 0 #ff8397, 1px -1px 0 #ff8397, -1px 1px 0 #ff8397, 1px 1px 0 #ff8397;
+    font-size: 80px;
+}
+
+p{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Shadows Into Light', cursive;
+    color: rgb(255, 105, 130);
+}
+
+button{
+    margin: 50px;
+    padding: 30px;
+    width: 300px;
+    font-size: 40px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #ff8397;
+    background-color: rgb(255, 215, 221);
+    border-radius: 20px;
+    position: relative;
+    left: 480px;
+    top: 150px;
+    transition: 0.3s;
+}
+
+button:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+.happy{
+    opacity: 0;
+    transition: 0.2s;
+    position: relative;
+    left: -60px;
+}
+
+#button1:hover ~ .happy{
+    opacity: 1;
+    transition: 0.2s;
+}
+
+.sad{
+    position: relative;
+    left: -364px;
+    top: -20px;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+#button2:hover ~ .sad{
+    opacity: 1;
+    transition: 0.2s;
+}

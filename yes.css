@@ -1,0 +1,39 @@
+*{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    color: #ff8397;
+}
+
+body{
+    background-image: url(https://t4.ftcdn.net/jpg/06/44/41/23/360_F_644412399_ovfqoclYIJBJ3qzBxuBIy5YkFBG1VbbH.jpg);    
+}
+
+#imp{
+    color: rgb(255, 115, 139);
+    position: relative;
+    top: 210px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+p{
+    font-size: 30px;
+}
+
+#title{
+    font-size: 50px;
+}
+
+img{
+    position: relative;
+    top: 200px;
+    margin: 30px;
+}
